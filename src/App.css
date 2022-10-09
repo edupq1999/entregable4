@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+:root{
+    --button_delete: #ac261c;
+    --button_edit: #3EDBF0;
+    --button_create: #84ffe4;
+    --background: #F0EBCC;
+    --color1: #000000;
+    --white: #ffffff;
+    --blue: #04009A;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+.App{
+    width: 100%;
+    min-height: 100vh;
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.App_tittle{
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 20px;
+    background-color: var(--blue);
+    width: 100%;
+    text-align: center;
+    color: var(--background);
+}
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: center;
+}

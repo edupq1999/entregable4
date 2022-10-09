@@ -1,0 +1,50 @@
+.user_card{
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 300px;
+}
+.user_card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.user_card_tittle{
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--blue);
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    text-align: center;
+    color: var(--background);
+}
+.user_card_info{
+    width: 95%;
+    margin: 10px auto;
+    color: var(--color1);
+}
+.user_card_info li{
+    font-family: 'Open Sans';
+}
+.user_card_button{
+    display: flex;
+    justify-content: end;
+}
+.user_card_button i{
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.50) 1px 2px 3px;
+}
+.user_card_button i:hover{
+    scale: 1.1;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.30) 1px 2px 3px;
+    transition: 0.2s;
+}
+.user_card_button i:first-child{
+    background-color: var(--button_delete);
+    color: var(--white);
+}
+.user_card_button i:last-child{
+    background-color: var(--button_edit);
+}
